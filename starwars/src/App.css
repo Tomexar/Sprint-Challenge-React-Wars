@@ -5,4 +5,13 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.Characters-card{
+
+  background-color: lightgrey;
+  border-radius: 4px;
+  margin: 20px auto;
+  width: 300px;
+  padding: 20px;
+}
 /* write your parent styles in here for your App.js */

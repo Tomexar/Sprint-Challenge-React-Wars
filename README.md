@@ -28,9 +28,15 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React was created by programmers from Facebook that wanted an easier way to access the DOM
+
 - [ ] What does it mean to _think_ in react?
 
+  Thinking about how to build an app using react. THis incudes things like deciding if something is state and where the state should live 
+
 - [ ] Describe state.
+
+  the state is part of a react app or component that can be changed 
 
 - [ ] Describe props.
 
