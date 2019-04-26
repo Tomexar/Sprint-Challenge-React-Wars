@@ -1,5 +1,7 @@
 # Sprint Challenge: React - Star Wars
 
+## Tom Exarhakis
+
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored ReactJS, Functional Components and Class Components. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web and style that data nicely on the page.
 
 ## Instructions
@@ -31,6 +33,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] Describe state.
 
 - [ ] Describe props.
+
+  Props are the vehicle used to carry data from different components
 
 ## Project Set Up
 
