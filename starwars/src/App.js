@@ -1,13 +1,33 @@
 import React, { Component } from 'react';
 import './App.css';
+import CharacterList from './components/CharacterList';
+
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []
+      starwarsChars: [],
+      starwarsHome: []
     };
   }
+
+  homeDidMount(){
+    this.getHome('https://swapi.co/api/planets/')
+  }
+
+  getHome= URL => {
+    fetch(URL)
+      .then(res =>{
+        return res.json();
+      })
+      .then(data => {
+        this.setState({starwarsHome: data.results});
+      })
+      .catch(err => {
+        throw new Error(err);
+      });
+  };
 
   componentDidMount() {
     this.getCharacters('https://swapi.co/api/people/');
@@ -33,6 +53,11 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        
+        <CharacterList 
+            starwarsChars = {this.state.starwarsChars}
+            starwarsHome = {this.state.starwarsHome}
+          />
       </div>
     );
   }

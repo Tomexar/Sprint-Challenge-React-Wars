@@ -1,5 +1,7 @@
 # Sprint Challenge: React - Star Wars
 
+## Tom Exarhakis
+
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored ReactJS, Functional Components and Class Components. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web and style that data nicely on the page.
 
 ## Instructions
@@ -26,11 +28,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React was created by programmers from Facebook that wanted an easier way to access the DOM
+
 - [ ] What does it mean to _think_ in react?
+
+  Thinking about how to build an app using react. THis incudes things like deciding if something is state and where the state should live 
 
 - [ ] Describe state.
 
+  the state is part of a react app or component that can be changed 
+
 - [ ] Describe props.
+
+  Props are the vehicle used to carry data from different components
 
 ## Project Set Up
 
